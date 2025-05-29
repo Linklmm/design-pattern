@@ -6,7 +6,7 @@ import java.util.Objects;
 
 public class StoreV1 {
     public static void main(String[] args) {
-        Project project = SimpleProjectFactory.getProject(1.5);
+        Project project = SimpleProjectFactory.getProject(4.5);
         if (Objects.isNull(project)) {
             System.out.println("没有此商品");
         }

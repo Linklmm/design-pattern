@@ -1,9 +1,6 @@
 package com.lmmlog.factory.simpleFactory;
 
-import com.lmmlog.factory.entity.Apple;
-import com.lmmlog.factory.entity.Orange;
-import com.lmmlog.factory.entity.Project;
-import com.lmmlog.factory.entity.Watermelon;
+import com.lmmlog.factory.entity.*;
 
 public class SimpleProjectFactory {
     public static Project getProject(double money) {
@@ -13,6 +10,10 @@ public class SimpleProjectFactory {
             return new Orange();
         } else if (3.5 ==money) {
             return new Watermelon();
+        } else if (4.5 ==money) {
+            return new Banana();
+        } else if (5.5 ==money) {
+            return new Pineapple();
         }
         return null;
     }
