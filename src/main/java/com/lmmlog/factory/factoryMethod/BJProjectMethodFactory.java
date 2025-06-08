@@ -1,6 +1,4 @@
 package com.lmmlog.factory.factoryMethod;
-
-
 import com.lmmlog.factory.entity.Project;
 import com.lmmlog.factory.entity.bj.BJApple;
 import com.lmmlog.factory.entity.bj.BJBanana;
