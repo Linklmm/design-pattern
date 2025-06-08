@@ -19,6 +19,6 @@ public abstract class AbstractProject implements Project {
     protected String name;
     @Override
     public void show() {
-        System.out.println("好吃的"+ this.name + this.price);
+        System.out.println("好吃的"+ getName() + this.price);
     }
 }
